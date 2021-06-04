@@ -34,7 +34,7 @@ namespace MTaaS.Metamorphoses
 {{
     public partial class {relation.Name}OutputMetamorphosis : IOutputMetamorphosis<{relation.Models.Output}>
     {{
-        public partial {relation.Models.Output} Transform({relation.Models.Output} Output);
+        public partial {relation.Models.Output} Transform({relation.Models.Output} output);
     }}
 }}";
         }
