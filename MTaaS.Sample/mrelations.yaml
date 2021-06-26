@@ -10,3 +10,10 @@
     output: System.IO.StringWriter
     output_equality_comparer: MTaaS.Sample.Helpers.StringWriterComparer
     generator: MTaaS.Sample.Models.GeneratorModel
+- name: RemoveColumn
+  models:
+    # we generate anon type in input metamorphosis, so use as input common 'object'
+    input: object[]
+    output: System.IO.StringWriter
+    output_equality_comparer: MTaaS.Sample.Helpers.StringWriterComparer
+    generator: MTaaS.Sample.Models.GeneratorModel
