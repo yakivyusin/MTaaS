@@ -24,3 +24,9 @@
     output: System.IO.StringWriter
     output_equality_comparer: MTaaS.Sample.Helpers.StringWriterComparer
     generator: MTaaS.Sample.Models.GeneratorModel
+- name: Reverse
+  models:
+    input: MTaaS.Sample.Models.TableItem[]
+    output: System.IO.StringWriter
+    output_equality_comparer: MTaaS.Sample.Helpers.StringWriterComparer
+    generator: MTaaS.Sample.Models.GeneratorModel
