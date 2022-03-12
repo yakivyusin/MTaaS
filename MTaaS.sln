@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTaaS.Contracts", "MTaaS.Contracts\MTaaS.Contracts.csproj", "{0F9F6E3A-F7E1-4C64-A6B3-97C90CCEC21C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTaaS.Generator", "MTaaS.Generator\MTaaS.Generator.csproj", "{4689A04F-CC1B-4D2D-BB5D-07A63FA00B00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTaaS.ContractGenerator", "MTaaS.ContractGenerator\MTaaS.ContractGenerator.csproj", "{4689A04F-CC1B-4D2D-BB5D-07A63FA00B00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTaaS.Sample", "MTaaS.Sample\MTaaS.Sample.csproj", "{05C0E49B-B2BB-4812-B0C0-2A76E9AFF111}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTaaS.ContractSample", "MTaaS.ContractSample\MTaaS.ContractSample.csproj", "{05C0E49B-B2BB-4812-B0C0-2A76E9AFF111}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
