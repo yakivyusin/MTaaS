@@ -9,12 +9,13 @@ namespace MTaaS.ContractGenerator.Configuration
     internal static class GeneratorConfigurationLoader
     {
         private const string ConfigurationFileName = "mrelations.yaml";
-        private static readonly DiagnosticDescriptor ConfigNotFoundError = new DiagnosticDescriptor(id: "MTAAS001",
-                                                                                              title: "Couldn't find MT-as-a-Service config file",
-                                                                                              messageFormat: "Couldn't find {0} file.",
-                                                                                              category: "MT-as-a-Service",
-                                                                                              DiagnosticSeverity.Error,
-                                                                                              isEnabledByDefault: true);
+        private static readonly DiagnosticDescriptor ConfigNotFoundError = new DiagnosticDescriptor(
+            id: "MTAAS001",
+            title: "Couldn't find MT-as-a-Service config file",
+            messageFormat: "Couldn't find {0} config file",
+            category: "MT-as-a-Service",
+            DiagnosticSeverity.Error,
+            isEnabledByDefault: true);
 
         public static MetamorphicRelationConfiguration[] Load(GeneratorExecutionContext context)
         {

@@ -2,7 +2,6 @@
 using Microsoft.CodeAnalysis.Text;
 using MTaaS.ContractGenerator.Configuration;
 using MTaaS.ContractGenerator.Models;
-using System.Diagnostics;
 using System.Text;
 
 namespace MTaaS.ContractGenerator.Generators

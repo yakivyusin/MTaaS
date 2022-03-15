@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MTaaS.ContractGenerator": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\MTaaS.ContractSample\\MTaaS.ContractSample.csproj"
+    }
+  }
+}
