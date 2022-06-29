@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MTaaS.AttributiveGenerator": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\MTaaS.AttributiveSample\\MTaaS.AttributiveSample.csproj"
+    }
+  }
+}

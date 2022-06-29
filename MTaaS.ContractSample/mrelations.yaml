@@ -1,0 +1,32 @@
+﻿- name: AddRow
+  models:
+    input: MTaaS.ContractSample.Models.TableItem[]
+    output: System.IO.StringWriter
+    output_equality_comparer: MTaaS.ContractSample.Helpers.StringWriterComparer
+    generator: MTaaS.ContractSample.Models.GeneratorModel
+- name: RemoveRow
+  models:
+    input: MTaaS.ContractSample.Models.TableItem[]
+    output: System.IO.StringWriter
+    output_equality_comparer: MTaaS.ContractSample.Helpers.StringWriterComparer
+    generator: MTaaS.ContractSample.Models.GeneratorModel
+- name: RemoveColumn
+  models:
+    # we generate anon type in input metamorphosis, so use as input common 'object'
+    input: object[]
+    output: System.IO.StringWriter
+    output_equality_comparer: MTaaS.ContractSample.Helpers.StringWriterComparer
+    generator: MTaaS.ContractSample.Models.GeneratorModel
+- name: AddColumn
+  models:
+    # we generate anon type in input metamorphosis, so use as input common 'object'
+    input: object[]
+    output: System.IO.StringWriter
+    output_equality_comparer: MTaaS.ContractSample.Helpers.StringWriterComparer
+    generator: MTaaS.ContractSample.Models.GeneratorModel
+- name: Reverse
+  models:
+    input: MTaaS.ContractSample.Models.TableItem[]
+    output: System.IO.StringWriter
+    output_equality_comparer: MTaaS.ContractSample.Helpers.StringWriterComparer
+    generator: MTaaS.ContractSample.Models.GeneratorModel
