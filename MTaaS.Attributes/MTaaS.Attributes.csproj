@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>yakivyusin</Authors>
+    <Description>Attributes for MTaaS generator</Description>
+    <RepositoryUrl>https://github.com/yakivyusin/MTaaS</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

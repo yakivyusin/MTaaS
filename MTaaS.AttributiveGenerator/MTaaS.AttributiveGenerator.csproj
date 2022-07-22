@@ -6,6 +6,9 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <LangVersion>latest</LangVersion>
     <IsRoslynComponent>true</IsRoslynComponent>
+    <RepositoryUrl>https://github.com/yakivyusin/MTaaS</RepositoryUrl>
+    <Authors>yakivyusin</Authors>
+    <Description>MTaaS generator</Description>
   </PropertyGroup>
 
   <ItemGroup>
