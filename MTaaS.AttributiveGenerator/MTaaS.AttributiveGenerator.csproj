@@ -9,6 +9,8 @@
     <RepositoryUrl>https://github.com/yakivyusin/MTaaS</RepositoryUrl>
     <Authors>yakivyusin</Authors>
     <Description>MTaaS generator</Description>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Async IO for generated functions</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

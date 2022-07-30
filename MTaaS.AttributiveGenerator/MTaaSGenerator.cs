@@ -216,18 +216,19 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using System.Text.Json;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace MTaaS.MetamorphicFunctions
 {{
     public static class {relation.FormattedName}MetamorphicFunction
     {{
         [FunctionName(""{relation.Name}"")]
-        public static IActionResult Run(
+        public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, ""post"", Route = null)] HttpRequest req)
         {{
             using var body = new StreamReader(req.Body);
 
-            var json = body.ReadToEnd();
+            var json = await body.ReadToEndAsync();
             {(dataGeneratorMethod.IsStatic ? string.Empty : $"var dataGenerator = new {relation.DataGenerator.Name}();")}
             var generationModel = JsonSerializer.Deserialize<{dataGeneratorMethod.Parameters[0].Type.Name}>(json);
 
