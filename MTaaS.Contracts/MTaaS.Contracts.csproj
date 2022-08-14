@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>yakivyusin</Authors>
+    <Description>Contracts for MTaaS generator</Description>
+    <RepositoryUrl>https://github.com/yakivyusin/MTaaS</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
